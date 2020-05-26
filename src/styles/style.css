@@ -8,10 +8,12 @@ body {
     margin: 30px auto;
     border-radius: 5px;
     box-shadow: 0 0 20px #7a7a7a;
-    position: relative;
 }
 
 .part1{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
     margin: 20px;
     padding: 20px;
 }
@@ -22,19 +24,16 @@ body {
     text-align: justify;
     line-height: 25px;
 }
-.box1{
-    width: 55%;
-    float: left;
-}
+
 .about {
     font-size: xx-large;
     font-weight: bold;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-right: 0px;
 }
 
 .p1 {
-    margin-top: 200px;
+    margin-top: 235px;
 }
 
 .p2 {
@@ -42,37 +41,34 @@ body {
     margin-top: 20px;
 }
 
+
 .img-1{
     margin-top: 20px;
-    width: 45%;
-    height: 55%;
-    float: right;
 }
 
 .part2{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
     margin: 20px;
     padding: 20px;
     clear: left;
     clear: right;
 }
 
-.p3 {
-    margin-top: 30px;
-}
-
 .part3{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
     margin: 20px;
     padding: 10px 20px 20px 20px;
 }
 
 .img-2{
-    width: 45%;
-    height: 55%;
+    padding-bottom: 20px;
 }
 
 .p4 {
     font-weight: bold;
-    width: 55%;
-    float: right;
     margin-top: 150px;
 }
