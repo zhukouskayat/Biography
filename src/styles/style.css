@@ -27,6 +27,7 @@ body {
 
 .about {
     font-size: xx-large;
+    text-transform: uppercase;
     font-weight: bold;
     margin-top: 20px;
     margin-right: 0px;
